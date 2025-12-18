@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+    display:flex;
+    background:black;
+    align-items: center;
+    color:aliceblue;
+    gap:30px;
+}
+.image img{
+    width:50%;
+    height:100 px;
+    border:whitesmoke;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+.video video{
+    width:50%;
+    background: white;
+    border:5px;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+.audio audio{
+   background:aliceblue;
+   border-radius: 15px;
+   box-shadow: 15px,15px,0 15px,16px;
+   margin-right:15%;
+}
