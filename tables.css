@@ -1,0 +1,57 @@
+
+body td{
+    font-size:25px;
+    font-weight:bold;
+}
+th{
+    background: orange;
+    padding:15px;
+    color:white;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.td{
+    margin-left:5px;
+}
+.title{
+    color:white;
+    background:green;
+   padding:15px;
+}
+.light{
+    background:violet;
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+}
+.medium{
+    background:rgb(184, 119, 184);
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+}
+.ff{
+    background:rgb(153, 62, 153);
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+}
+.one{
+    background:rgb(204, 130, 238);
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+    
+}
+.tone{
+    background:rgb(110, 80, 110);
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+}
+.sfive{
+    background:rgba(238, 130, 238, 0.589);
+    color:aliceblue;
+    text-align:center;
+    padding:10px;
+}

@@ -1,0 +1,137 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF_-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tables in Html</title>
+        <link rel="stylesheet" href="tables.css">
+        <style>
+            table{
+
+                border:1px solid black;
+                width: 30%;
+                height:30%;
+                text-align:center;
+            }
+            th,td{
+                border:1px solid white;
+                padding:10px;
+            }
+            .f{
+                background:pink;
+            }
+            .s{
+                background:rgb(243, 243, 185);
+            }
+            .l{
+                background:azure;
+            }
+            .si{
+                background:grey;
+            }
+            .fi{
+                background:lightcoral
+            }
+            .li{
+                background:deepskyblue
+            }
+            .t{
+                background:#FFFF99;
+            }
+            .to{
+                background:#FF9933;
+            }
+            .w{
+                background:#CC0000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>table 1 External styleing</h1>
+        <table>
+            <tr>
+                <th colspan="7">Title Data 1 Data 2 Data 3 Data 4 Data 5 Data 6</th>
+            </tr>
+            <tr>
+                <td class="title">Wanda</td>
+                <td class="tone">25</td>
+                <td class="ff">55</td>
+                <td class="light">26</td>
+                <td class="one">19</td>
+                <td class="medium">39</td>
+                <td class="tone">21</td>
+            </tr>
+             <tr>
+                <td class="title">Wave</td>
+                <td class="one">35</td>
+                <td class="sfive">65</td>
+                <td class="tone">36</td>
+                <td class="ff">52</td>
+                <td class="light">33</td>
+                <td class="medium">41</td>
+            </tr>
+             <tr>
+                <td class="title">Candy</td>
+                <td class="one">15</td>
+                <td class="medium">45</td>
+                <td class="sfive">39</td>
+                <td class="medium">42</td>
+                <td class="light">26</td>
+                <td class="one">17</td>
+            </tr>
+             <tr>
+                <td class="title">choose</td>
+                <td class="tone">25</td>
+                <td class="ff">49</td>
+                <td class="tone">29</td>
+                <td class="light">22</td>
+                <td class="ff">46</td>
+                <td class="medium">37</td>
+            </tr>
+            
+        </table>
+        <h1>Table 2 internal styleing</h1>
+        <table border="1" style="width:50%;height:50%;background-color: aqua;">
+            <tr>
+                <td style="background:#FF6600">a</td>
+                <td style="background:#ff3333">b</td>
+                <td style="background:#FF0000">c</td>
+            </tr>
+            <tr>
+                <td style="background:#FF3366">d</td>
+                <td style="background:#FF6633">e</td>
+                <td style="background:#FF0099">f</td>
+            </tr>
+            <tr>
+                <td style="background:#FF3399">f</td>
+                <td style="background:#FF0099">g</td>
+                <td style="background:#FF3989" rowspan="3">h</td>
+            </tr>
+            <tr>
+                
+                <td  style="background:#FF2266">i</td>
+                <td rowspan="2" style="background:#FF2346">j</td>
+            </tr>
+           
+        </table>
+        <h1>intermediate styleing</h1>
+        <table>
+            <tr>
+                <td class="li">Logo</td>
+                <td colspan="3" class="to">Top Menu</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="si">Side Minu</td>
+                <td class="w">World News</td>
+                <td class="fi">Financial</td>
+                <td rowspan="2" class="l">List of ads</td>
+            </tr>
+            <tr>
+                <td class="t">Technology</td>
+                <td class="s">sports</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="f">Footer</td>
+            </tr>
+        </table>
+    </body>
+</html>
