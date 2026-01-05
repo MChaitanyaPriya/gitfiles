@@ -1,0 +1,197 @@
+<html>
+    <head>
+        <title>Hotel Reservation</title>
+        <link rel="stylesheet" href="hotel.css">
+    </head>
+    <body>
+        <header>
+           <div class="header">
+                <img src="ehrlogo.jpg" alt="Ehr Hotel">
+                <div class="right">
+                    <div>
+                        <input type="text"  placeholder="search"><span><button class="search" onClick="search()">🔍 search</button></span>
+                    </div>
+                    <div class="para">
+                        <p>price per night </p>
+                        <p>filters</p>
+                        <p> Guest rating</p>
+                        <p>Property type</p>
+                        <p><b>Location</b></p>
+                    </div>
+                    <div class="buttons">
+                        <button>900</button>
+                        <button>Select</button>
+                        <button>All</button>
+                        <button>Select</button>
+                        <button id="citycenter">City center</button>
+                    </div>
+                     <div class="navbar">
+                <nav>
+                    <a href="#home" id="home">Home</a>
+                    <a href="#place" id="place">Place</a>
+                    <a href="#services" id="service">Services</a>
+                    <a href="#facilities" id="facilities">Facilities</a>
+                    <a href="#aboutus" id="about">About Us</a>
+                    
+                </nav>
+            </div>
+                </div>  
+                 
+           </div>
+           
+        </header>
+        <div class="center">
+            <div class="middle">
+            <img src="nightset.jpg" alt="nightset">
+            <div class="details">
+                <h2>City Hotel</h2>
+                    <h5>*****Hotel</h5>
+                    <h6>pune.121.4 km to Mumbai</h6>
+                    <h4>8.5-Excellent(2234 reviews)</h4>
+            </div>
+            <div class="symbols">
+                    <p>❤</p>
+                    <p>∨</p>
+                    <p>∨</p>
+            </div>
+            <div class="rating">
+                    <h4><b>See prices from 8 sites</b></h4>
+                    <h3 id="c">9999</h3>
+                    <h2 id="d">50%</h2>
+                    <button onClick="Dis()">See process</button>
+                    <h2 id="r"></h2>
+                    <button onClick="Booking()">Book</button>
+
+            </div>
+            </div>
+            <div class="middle">
+            <img src="cupset.jpg" alt="nightset">
+            <div class="details">
+                <h2>ABC Hotel</h2>
+                    <h5>****Hotel</h5>
+                    <h6>Mumbai.140.4 km to Mumbai</h6>
+                    <h4>9.5-Excellent (1234 reviews)</h4>
+            </div>
+            <div class="symbols">
+                    <p>❤</p>
+                    <p>∨</p>
+                    <p>∨</p>
+            </div>
+            <div class="rating">
+                    <h4><b>See prices from 8 sites</b></h4>
+                    <h3 id="cost">15,999</h3>
+                    <h2 id="discount">50%</h2>
+                    <button onClick="Discount()">See process</button>
+                    <h2 id="display"></h2>
+            </div>
+            </div>
+            <div class="middle">
+            <img src="sleepset.jpg" alt="nightset">
+            <div class="details">
+                <h2>Chill Resort</h2>
+                    <h5>*****Hotel</h5>
+                    <h6>Delhi.100.4 km to Mumbai</h6>
+                    <h4>7.5-Excellent(15k reviews)</h4>
+            </div>
+            <div class="symbols">
+                    <p>❤</p>
+                    <p>∨</p>
+                    <p>∨</p>
+            </div>
+            <div class="rating">
+                    <h4><b>See prices from 8 sites</b></h4>
+                    <h3>49999</h3>
+                    <h2>10%</h2>
+                    <button onClick="Dis()">See process</button>
+                    <h2 id="disp"></h2>
+                    <button onClick="Booking()">Book</button>
+            </div>
+            </div>
+            <div class="middle">
+            <img src="wineset.jpg" alt="nightset">
+            <div class="details">
+                <h2>Live In Hotel</h2>
+                    <h5>*****Hotel</h5>
+                    <h6>Tirumala.50.4 km to Mumbai</h6>
+                    <h4>6.8-Excellent(10k reviews)</h4>
+            </div>
+            <div class="symbols">
+                    <p>❤</p>
+                    <p>∨</p>
+                    <p>∨</p>
+            </div>
+            <div class="rating">
+                    s<h4><b>See prices from 8 sites</b></h4>
+                    <h3>999</h3>
+                    <h2>15%</h2>
+                    <button onClick="Disc()">See process</button>
+                     <h2 id="disp"></h2>
+                    <button onClick="Booking()">Book</button>
+            </div>
+            </div>
+            <div class="middle">
+            <img src="lampset.jpg" alt="nightset">
+            <div class="details">
+                <h2>Enjoy Hotel</h2>
+                    <h5>***Hotel</h5>
+                    <h6>Chennai.20.4 km to Mumbai</h6>
+                    <h4>5.5-Excellent(2234 reviews)</h4>
+            </div>
+            <div class="symbols">
+                    <p>❤</p>
+                    <p>∨</p>
+                    <p>∨</p>
+            </div>
+            <div class="rating">
+                    s<h4><b>See prices from 8 sites</b></h4>
+                    <h3>22911</h3>
+                    <h2>20%</h2>
+                    <button>See process</button>
+                     <h2 id="disp"></h2>
+                    <button onClick="Booking()">Book</button>
+            </div>
+            </div>
+
+        </div>
+        <footer>
+                <div class="footer">
+                    <div class="left">
+                        <h3>LaLuxurio</h3>
+                        <p>+442(0)50 34 10 34</p>
+                        <p>laluxurio.admin@support.com</p>
+                        <p>16122 Collins street West Victoria</p>
+                        <p>8265 Australia</p>
+                    </div>
+                    <div class="about">
+                        <h3>Home</h3>
+                        <p>Our story</p>
+                        <p>Sleep</p>
+                        <p>Experience Bruges</p>
+                        <p>inspiration</p>
+                        <p>Contact</p>
+                    </div>
+                    <div class="right">
+                        <h3>Quick Link</h3>
+                        <p>Book a Room</p>
+                         <p>Check In</p>
+                        <p>Check Out</p>
+                        <p>FAQ's</p>
+                    </div> 
+                     <div class="info">
+                        <h3>Newsletter</h3>
+                        <p>Stay informed through our newsletter &<br>get offer any time!</p>
+                        <input type="email" place-holder="Email address"><span><button>---></button></span>
+                        <br>
+                        <button class="subsribe">Subscribe</button>
+                     </div> 
+                </div>
+                <div class="copy">
+                    <p>© Copyright 2021.Powered by WPDeveloper</p>
+                    <p>Terms & Conditions</p>
+                    <p>Privacy Policy</p>
+                    <p>Made by Templately</p>
+                </div>
+        </footer>
+    <script src="hotel.js"></script>
+    </body>
+</html>
