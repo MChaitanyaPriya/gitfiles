@@ -1,5 +1,5 @@
 body{
-    background:rgb(238, 232, 232);
+    background:#F6C1CC;
 }
 header{
     display:flex;
@@ -143,7 +143,7 @@ nav a{
 .details ,.rating{
     text-align:center;
     margin-left:15px;
-    background:rgb(252, 250, 250);
+    background:#f8e5f0f6;
     width:17.7%;
     border-radius:5px;
     box-shadow:0.5px 0.10px 0.10px 0.10px rgba(0,0,0,0.15);

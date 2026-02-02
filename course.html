@@ -1,0 +1,61 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Course Registration
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div class="formcard">
+            <form action="#" method="post" id="form" class="registrationform" >
+            <h2>Course Registration Form</h2>
+            <div class="formgroup">
+                <label for="fname">Enter First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Enter Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="formgroup">
+                <label for="idno">Enter Id No:</label>
+                <input type="text" id="idno" name="idno" required>
+            </div>
+            <div class="formgroup">
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female">
+            </div>
+            <div class="formgroup">
+                <label for="age">Enter Age:</label>
+                <input type="number" id="age" name="age" min="10" max="100" required>
+            </div>
+            <div class="formgroup">
+                 <label for="domain">Select Domain</label>
+                <select id="domain" name="domain" required>
+                    <option value="AI ML">AI ML</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="Robotics">Robotics</option>
+                    <option value="other">other</option>
+                 </select>
+           </div>
+            <div class="formgroup">
+                <textarea rows="5" cols="30" name="reason"  id="reason" placeholder="why you are selecting this domain" required></textarea>
+           </div> 
+           <div class="formgroup">
+                <label for="email">Enter Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+           </div>
+           <div class="formgroup">
+                 <label for="phone">Enter Phone No:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" placeholder="10-digit number">
+           </div>
+            <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </body>
+</html>

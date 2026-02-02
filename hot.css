@@ -1,0 +1,162 @@
+body{
+    background:#FFF7F2;
+    font-family:Arial,sans-serif;
+    color:#2C2C2C;
+}
+header{
+    background:pink;
+    padding:10px;
+}
+
+
+.header{
+    display:flex;
+    gap:20px;
+    background:transparent;   
+    padding:0;
+    box-shadow:none;
+}
+
+.header img{
+    width:130px;
+    height:110px;
+    border-radius:8px;
+}
+
+
+.right{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+
+.header input{
+    height:40px;
+    width:380px;
+    border-radius:4px;        
+    border:1px solid #999;
+    padding-left:10px;
+    font-size:16px;
+}
+
+
+.search{
+    height:40px;
+    width:110px;
+    border:none;
+    border-radius:4px;
+    background:indigo;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.search:hover{
+    background:#4b0082;
+}
+
+
+.para{
+    display:flex;
+    gap:20px;
+}
+
+.para select{
+    height:42px;
+    width:180px;
+    font-size:16px;
+    border-radius:6px;   
+    border:1px solid #999;
+    padding:6px;
+}
+
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+
+nav a{
+    font-size:18px;
+    text-decoration:none;
+    color:blue;               
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:darkblue;
+    text-decoration:underline;
+}
+.middle{
+    display:flex;
+    gap:20px;
+    background:#FFFFFF;
+    padding:15px;
+    margin:15px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0,08);
+}
+.middle img{
+    width:140px;
+    height:190px;
+    border-radius:8px;
+    object-fit:cover;
+}
+.details{
+    width:25%;
+}
+.details h4{
+    color:#1AAE9F;
+}
+.rating{
+    background:#FFF7F2;
+    padding:10px;
+    border-radius:8px;
+    text-align:center;
+}
+.rating h2{
+    color:#E63946;
+}
+.rating button{
+    background:#1F3C88;
+    color:white;
+    border:none;
+    border-radius:6px;
+    padding:6px 12px;
+    cursor:pointer;
+}
+.rating button:hover{
+    background:#3A5BA0;
+}
+footer{
+    background:#F6C1CC;
+    padding:30px 20px;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.footer h3{
+    margin-bottom:10px;
+}
+.subscribe{
+    background:#1F3C88;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+}
+.subscribe:hover{
+    background:#3A5BA0;
+
+}
+.copy{
+    display:flex;
+    justify-content:space-around;
+    margin-top:20px;
+    font-size:14px;
+    
+}

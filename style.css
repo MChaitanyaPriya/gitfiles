@@ -1,3 +1,68 @@
 body{
-    background:green;
+    background:linear-gradient(135deg,#74ebd5,#acb6e5);
+    font-family:Arial,sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin-top:0;
+}
+
+.formcard{
+    background-color: #fff;
+    padding: 20px;
+    width:400px;
+    margin:50px auto;
+    border-radius: 10px;
+    border:1px solid;
+    box-shadow: 0px 6px 18px rgba(0,0, 0, 0.15);
+}
+.registrationform h2{
+    text-align: center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.formgroup{
+    margin-bottom:15px;
+
+}
+.formgroup label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:6px;
+    color:#444;
+}
+.registrationform input,.registrationform select,.registrationform textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #bbb;
+    border-radius:6px;
+    font-size:14px;
+    outline:none;
+    box-sizing: border-box;
+}
+.registrationform input:focus,.registrationform select:focus,.registrationform textarea:focus{
+        border-color:#6c63ff;
+        box-shadow:0 0 6px rgba(108,99,255,0.3)
+}
+.formgroup input[type="radio"]{
+    width:auto;
+    margin-left:10px;
+}
+.registrationform button{
+    width:100%;
+    padding:12px;
+    background: #6c63ff;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+
+}
+.registrationform button:hover{
+    background: #5848d6;
 }

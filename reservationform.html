@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Room Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <div class="form">
+        <div>
+            <img src="cofee.jpg" alt="sleeping">
+        </div>
+        <div>
+            <form action="reservation.php" method="post">
+                <h1>Hotel Guest registration Form</h1>
+                <h3>Address</h3>
+
+                <div>
+                    <label for="streetaddress">Street address</label>
+                    <input type="text" id="streetaddress" name="streetaddress">
+                </div>
+
+                <div>
+                    <label for="line">Street address line 2</label>
+                    <input type="text" id="line" name="line">
+                </div>
+
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+
+                <div>
+                    <label for="state">State</label>
+                    <select id="state" name="state">
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chasithgardh">Chasithgardh</option>
+                        <option value="Odisha">Odisha</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="zip">Zip code</label>
+                    <input type="number" id="zip" name="zip">
+                </div>
+
+                <div>
+                    <label for="country">Country</label>
+                    <input type="text" id="country" name="country">
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

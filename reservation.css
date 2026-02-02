@@ -1,0 +1,19 @@
+body{
+    background:#990000;
+    color:white;
+}
+.form{
+    display:flex;
+    gap:35px;
+}
+.form img{
+    height:750px;
+    width:650px;
+    margin:0;
+    border-radius:5px;
+}
+form div{
+    margin:10px;
+    display:block;
+}
+

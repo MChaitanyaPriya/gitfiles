@@ -1,45 +1,62 @@
 <html>
     <head>
         <title>Hotel Reservation</title>
-        <link rel="stylesheet" href="hotel.css">
+        <link rel="stylesheet" href="hot.css">
     </head>
     <body>
         <header>
-           <div class="header">
-                <img src="ehrlogo.jpg" alt="Ehr Hotel">
-                <div class="right">
-                    <div>
-                        <input type="text"  placeholder="search"><span><button class="search" onClick="search()">🔍 search</button></span>
-                    </div>
-                    <div class="para">
-                        <p>price per night </p>
-                        <p>filters</p>
-                        <p> Guest rating</p>
-                        <p>Property type</p>
-                        <p><b>Location</b></p>
-                    </div>
-                    <div class="buttons">
-                        <button>900</button>
-                        <button>Select</button>
-                        <button>All</button>
-                        <button>Select</button>
-                        <button id="citycenter">City center</button>
-                    </div>
-                     <div class="navbar">
+    <div class="header">
+        <img src="ehrlogo.jpg" alt="Ehr Hotel">
+
+        <div class="right">
+            <div>
+                <input type="text" placeholder="Enter Hotel/Place">
+                <span>
+                    <button class="search">🔍 Search</button>
+                </span>
+            </div>
+
+            <div class="para">
+                <select>
+                    <option>Price per Night</option>
+                    <option>0-900</option>
+                    <option>1000-3000</option>
+                    <option>3000+</option>
+                </select>
+
+                <select>
+                    <option>Guest Rating</option>
+                    <option>8+ Excellent</option>
+                    <option>7+ Good</option>
+                    <option>6+ Average</option>
+                </select>
+
+                <select>
+                    <option>Property Type</option>
+                    <option>Resort</option>
+                    <option>Villa</option>
+                </select>
+
+                <select>
+                    <option>Location</option>
+                    <option>City Center</option>
+                    <option>Near Airport</option>
+                    <option>Near Beach</option>
+                </select>
+            </div>
+
+            <div class="navbar">
                 <nav>
                     <a href="#home" id="home">Home</a>
                     <a href="#place" id="place">Place</a>
                     <a href="#services" id="service">Services</a>
                     <a href="#facilities" id="facilities">Facilities</a>
                     <a href="#aboutus" id="about">About Us</a>
-                    
                 </nav>
             </div>
-                </div>  
-                 
-           </div>
-           
-        </header>
+        </div>
+    </div>
+</header>
         <div class="center">
             <div class="middle">
             <img src="nightset.jpg" alt="nightset">
@@ -50,7 +67,7 @@
                     <h4>8.5-Excellent(2234 reviews)</h4>
             </div>
             <div class="symbols">
-                    <p>❤</p>
+                    <p onClick="likeHotel(this)" class="heart" style="cursor:pointer">🤍</p>
                     <p>∨</p>
                     <p>∨</p>
             </div>
@@ -73,7 +90,7 @@
                     <h4>9.5-Excellent (1234 reviews)</h4>
             </div>
             <div class="symbols">
-                    <p>❤</p>
+                    <p onClick="likeHotel(this)" class="heart" style="cursor:pointer">🤍</p>
                     <p>∨</p>
                     <p>∨</p>
             </div>
@@ -94,7 +111,7 @@
                     <h4>7.5-Excellent(15k reviews)</h4>
             </div>
             <div class="symbols">
-                    <p>❤</p>
+                   <p onClick="likeHotel(this)" class="heart" style="cursor:pointer">🤍</p>
                     <p>∨</p>
                     <p>∨</p>
             </div>
@@ -116,7 +133,7 @@
                     <h4>6.8-Excellent(10k reviews)</h4>
             </div>
             <div class="symbols">
-                    <p>❤</p>
+                    <p onClick="likeHotel(this)" class="heart" style="cursor:pointer">🤍</p>
                     <p>∨</p>
                     <p>∨</p>
             </div>
@@ -138,7 +155,7 @@
                     <h4>5.5-Excellent(2234 reviews)</h4>
             </div>
             <div class="symbols">
-                    <p>❤</p>
+                    <p onClick="likeHotel(this)" class="heart" style="cursor:pointer">🤍</p>
                     <p>∨</p>
                     <p>∨</p>
             </div>
@@ -180,9 +197,9 @@
                      <div class="info">
                         <h3>Newsletter</h3>
                         <p>Stay informed through our newsletter &<br>get offer any time!</p>
-                        <input type="email" place-holder="Email address"><span><button>---></button></span>
+                        <input type="email" placeholder="Email address"><span><button>---></button></span>
                         <br>
-                        <button class="subsribe">Subscribe</button>
+                        <button class="subscribe">Subscribe</button>
                      </div> 
                 </div>
                 <div class="copy">
@@ -192,6 +209,6 @@
                     <p>Made by Templately</p>
                 </div>
         </footer>
-    <script src="hotel.js"></script>
+    <script src="hot.js"></script>
     </body>
 </html>
